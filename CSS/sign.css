@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Urbanist:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    min-block-size: 100vh;
+    background: #5b6063;
+    color: #5b6063;
+}
+
+#sign_in {
+    inline-size: 90%;
+    border-radius: 6%;
+    max-inline-size: 23rem;
+    background: #eeeeee7a;
+    margin-inline: auto;
+    position: fixed;
+    bottom: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+#sign_up {
+    inline-size: 90%;
+    border-radius: 6%;
+    max-inline-size: 23rem;
+    background: #eeeeee7a;
+    margin-inline: auto;
+    position: fixed;
+    bottom: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+span {
+    color: #eee;
+    margin-bottom: 0.5rem;
+    letter-spacing: 3px;
+    font-weight: 10px;
+    font-size: 40px;
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+}
+
+form {
+    display: grid;
+    gap: 0.875rem;
+}
+
+#field {
+    display: flex;
+}
+
+label,
+input {
+    border-radius: 0.35rem;
+    padding: 1rem;
+    outline: 0;
+}
+
+label {
+    background-color: #61a5c2;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+i {
+    block-size: 1em;
+    color: #ffffff;
+    inline-size: 1em;
+    vertical-align: middle;
+}
+
+input {
+    font-family: "Baloo Tamma 2", cursive;
+    border: 0;
+    transition: background-color 0.3s;
+    inline-size: 100%;
+    color: #eee;
+    vertical-align: center;
+}
+
+input::placeholder {
+    font-family: "Baloo Tamma 2", cursive;
+    vertical-align: center;
+}
+
+input:not(input[type="submit"]) {
+    background-color: #3b4148;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+input:not(input[type="submit"]):hover,
+input:not(input[type="submit"]):focus {
+    background-color: #434a52;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #61a5c2;
+    color: #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Baloo Tamma 2", cursive;
+    line-height: 1.2;
+}
+
+input[type="submit"]:focus,
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #61a5c2;
+}
+
+p {
+    margin-block: 1.5rem;
+    text-align: center;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+a {
+    cursor: pointer;
+    color: #eee;
+    outline: 0;
+    text-decoration: none;
+    padding: 0 0.3rem;
+}
+
+a:focus,
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}

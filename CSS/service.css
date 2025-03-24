@@ -1,0 +1,37 @@
+html, body { 
+    scroll-behavior: smooth
+  }
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+}
+
+.services .box-container .box {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: #61a5c2;
+    cursor: pointer;
+    border-radius: 3%;
+}
+
+.services .box-container .box:hover {
+    background: #bee1e6;
+}
+
+.services .box-container .box img {
+    height: 7rem;
+}
+
+.services .box-container .box h3 {
+    color: white;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+.heading-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 6rem;
+    color: black;
+}

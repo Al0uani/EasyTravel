@@ -1,0 +1,28 @@
+
+ @media print {
+ 
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        scale: 2;
+    }
+    h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    p {
+        margin-bottom: 10px;
+    }
+    #t1{display: none;}
+    #i1{display: none;}
+    @page {
+        size: A5;
+        margin: 0;
+    }
+}

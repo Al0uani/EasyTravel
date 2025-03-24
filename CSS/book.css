@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #61a5c2;
+    border-radius: 5rem;
+}
+
+section {
+    padding: 5rem 10%;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.heading span {
+    color: #61a5c2;
+    font-size: 2rem;
+}
+
+.heading h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #61a5c2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+}
+
+.header .navbar a {
+    font-size: 1.7rem;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.header .navbar a:hover {
+    color: #bee1e6;
+}
+
+.header .btn {
+    margin-top: 0;
+}
+
+#menu-btn {
+    font-size: 2.5rem;
+    color: #bee1e6;
+    cursor: pointer;
+    display: none;
+}
+
+.booking .book-form {
+    padding: 2rem;
+    background: #eee;
+}
+
+.booking .book-form .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.booking .book-form .flex .inputBox {
+    flex: 1 1 41rem;
+}
+
+.booking .book-form .flex .inputBox input {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: #777;
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: .1rem solid #61a5c2;
+}
+
+.booking .book-form .flex .inputBox input:focus {
+    background: #61a5c2;
+    color: #fff;
+}
+
+.booking .book-form .flex .inputBox input:focus::placeholder {
+    color: #fff9;
+}
+
+.booking .book-form .flex .inputBox span {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.booking .book-form .btn {
+    margin-top: 2rem;
+}
+
+.footer {
+    background-color: #61a5c2;
+}
+
+.footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box {
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .logo {
+    padding-bottom: 1rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.2rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box p {
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.footer .box-container .box p i {
+    padding-right: .5rem;
+    color: #bee1e6;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.logo i {
+    color: #bee1e6;
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .share {
+    padding-top: 1rem;
+}
+
+.footer .box-container .box .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    border: 0.2rem solid #bee1e6;
+    color: #bee1e6;
+    margin-right: .5rem;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+    background: #bee1e6;
+    color: rgb(255, 255, 255);
+}
+
+.footer .box-container .box .links {
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+    display: block;
+}
+
+.footer .box-container .box .links:hover {
+    color: #bee1e6;
+}
+
+.footer .box-container .box .links:hover i {
+    padding-right: 2rem;
+}
+
+.footer .box-container .box .links i {
+    padding-right: .5rem;
+    color: #bee1e6;
+}
+
+.footer .box-container .box form .email {
+    width: 100%;
+    border-radius: 5rem;
+    border: 0.2rem solid #bee1e6;
+    background: none;
+    font-size: 1.5rem;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    padding: 1.2rem 1.4rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #fdffff;
+    border: 0.2rem solid #f7f8f8;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+}
+
+.btn:hover {
+    background: #bee1e6;
+    border: 0.2rem solid #bee1e6;
+    color: rgb(255, 255, 255);
+}
+
+.credit {
+    background: #bee1e6;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.credit span {
+    color: #61a5c2;
+}
+
+#nou ::placeholder {
+    color: #fff;
+}
+
+.home-offer {
+    background: #EEEEEE;
+}
+
+.booking .book-form {
+    padding: 2rem;
+}
+
+.heading1 {
+    background-size: cover !important;
+    background-position: center !important;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading1 h1 {
+    font-size: 10rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.booking .book-form .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.booking .book-form .flex .inputBox {
+    flex: 1 1 41rem;
+}
+
+.booking .book-form .flex .inputBox input {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: #777;
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: var(--border);
+}
+
+.booking .book-form .flex .inputBox input:focus {
+    background: #222;
+    color: #fff;
+}
+
+.booking .book-form .flex .inputBox input:focus::placeholder {
+    color: #fff9;
+}
+
+.booking .book-form .flex .inputBox span {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.booking .book-form .btn {
+    margin-top: 2rem;
+}
+
+.heading-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 6rem;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    #menu-btn {
+        display: inline-block;
+    }
+    .header .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #61a5c2;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .header .navbar.active {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .header .navbar a {
+        margin: 2rem;
+        font-size: 2rem;
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+    .header {
+        padding: 1.5rem 2rem;
+    }
+    section {
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+    .about .content h3 {
+        font-size: 3.5rem;
+    }
+    .banner .content h3 {
+        font-size: 2.7rem;
+    }
+}
